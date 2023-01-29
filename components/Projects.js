@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import Cheers from "../public/assets/Projects/Cheers.png";
-import SideProjects from "../public/assets/Projects/Side-Projects.png";
+import Cheers from "../public/assets/Projects/CheersCard.png";
+import SideProjects from "../public/assets/Projects/SideProjectsCard.png";
 
 const ProjectData = [
   {

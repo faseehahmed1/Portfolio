@@ -1,10 +1,10 @@
-import React, { useDebugValue } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { GrGithub, GrLinkedinOption } from "react-icons/gr";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
 import { useRouter } from "next/router";
 
 
@@ -55,18 +55,10 @@ export default function Navbar() {
     >
       {/* Desktop NavBar */}
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/assets/Logo.png"
-          alt="logo"
-          width={80}
-          height={20}
-        ></Image>
+        <Image src="/assets/LogoNavBar.png" alt="logo" width={80} height={20}></Image>
         <div>
           {/* Tailwind is mobile first, so this is saying its hidden until its above a medium size than its flex. */}
-          <ul
-            style={{ color: `${linkColor}` }}
-            className="hidden md:flex"
-          >
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -205,9 +197,11 @@ export default function Navbar() {
                     <AiOutlineMail />
                   </div>
                 </a>
-                {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div> */}
+                <a href="https://twitter.com/FaseehAhmed_" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineTwitter />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
