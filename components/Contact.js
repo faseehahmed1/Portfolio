@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="lg:p-4 h-full">
               <div>
                 <Image
-                  src="/../public/assets/Contact_icon.jpeg"
+                  src="/assets/Contact_icon.jpeg"
                   width="500"
                   height="400"
                   className="rounded-xl hover:scale-105 ease-in duration-300"
