@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import CheersImage from "../../public/assets/Projects/PageAll.png";
+import CheersImage from "../../public/assets/Projects/CheersPageAll.png";
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 
