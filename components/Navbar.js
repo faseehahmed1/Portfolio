@@ -56,7 +56,7 @@ export default function Navbar() {
       {/* Desktop NavBar */}
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/Logo.png"
+          src="/assets/Logo.png"
           alt="logo"
           width={80}
           height={20}
