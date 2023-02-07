@@ -10,6 +10,15 @@ const skill = [
   { skill: "TypeScript", img: "typescript3" },
   { skill: "HTML", img: "html" },
   { skill: "SQL", img: "sql" },
+  { skill: "MongoDB", img: "mongodb" },
+  { skill: "PostgreSQL", img: "postgresql" },
+  { skill: "Cypress", img: "cypress" },
+  { skill: "Jest", img: "jest" },
+  { skill: "Node.js", img: "nodejs" },
+  { skill: "Figma", img: "figma" },
+  { skill: "Netlify", img: "netlify" },
+  { skill: "Render", img: "render" },
+  { skill: "GitHub", img: "github" },
 ];
 
 export default function Skills() {

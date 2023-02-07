@@ -55,7 +55,14 @@ export default function Navbar() {
     >
       {/* Desktop NavBar */}
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/assets/LogoNavBar.png" alt="logo" width={80} height={20}></Image>
+        <Link href="/#home">
+          <Image
+            src="/assets/LogoNavBar.png"
+            alt="logo"
+            width={80}
+            height={20}
+          ></Image>
+        </Link>
         <div>
           {/* Tailwind is mobile first, so this is saying its hidden until its above a medium size than its flex. */}
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -102,7 +109,7 @@ export default function Navbar() {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/assets/Logo.png"
+                  src="/assets/LogoNavBar.png"
                   alt="logo"
                   width="60"
                   height="20"
