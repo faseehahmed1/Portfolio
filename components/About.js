@@ -15,16 +15,18 @@ export default function About() {
             School of Code. After graduating in Mechanical Engineering and
             honing my design and development skills, I became a mathematics
             teacher, breaking down complex concepts and making them accessible
-            to students.</p>
-            
-            <p className="pt-2">However, I was always looking for ways to have a
-            greater impact and when I attended a School of Code demo day, I knew
-            I had found my calling. I soon enrolled in the Full Stack
-            Development bootcamp at the School of Code and have since been
-            dedicated to building my skills as a software developer. I bring a
-            unique combination of technical know-how and a passion for teaching.
-            With hands-on experience and eagerness to learn, I am looking
-            forward to a new career in tech.
+            to students.
+          </p>
+
+          <p className="pt-2 text-gray-600">
+            However, I was always looking for ways to have a greater impact and
+            when I attended a School of Code demo day, I knew I had found my
+            calling. I soon enrolled in the Full Stack Development bootcamp at
+            the School of Code and have since been dedicated to building my
+            skills as a software developer. I bring a unique combination of
+            technical know-how and a passion for teaching. With hands-on
+            experience and eagerness to learn, I am looking forward to a new
+            career in tech.
           </p>
           <a href="/#projects">
             <p className="pt-2 text-gray-600 underline cursor-pointer">
