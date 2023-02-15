@@ -18,9 +18,10 @@ export default function Navbar() {
   useEffect(() => {
     if (
       router.asPath === "/projects/BarFinder" ||
-      router.asPath === "/projects/Connect"
+      router.asPath === "/projects/Connect" ||
+      router.asPath === "/projects/Pomodoro"
     ) {
-      setNavbg('transparent')
+      setNavbg("transparent");
       setLinkColor("#ecf0f3");
     } else {
       setNavbg("#ecf0f3");
